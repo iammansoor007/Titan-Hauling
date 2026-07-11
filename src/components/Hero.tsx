@@ -589,7 +589,7 @@ const Hero = () => {
 
 
               <motion.h1
-                className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.75rem] font-black text-white leading-[1.08] tracking-tight uppercase mt-8"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.75rem] font-black text-white leading-[1.08] tracking-tight uppercase mt-10"
                 style={{ fontFamily: "var(--font-heading)", textShadow: "0 2px 40px rgba(230,126,34,0.12)" }}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}

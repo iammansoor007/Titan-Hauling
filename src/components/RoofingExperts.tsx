@@ -1,6 +1,6 @@
 import { motion, useInView, useReducedMotion } from "framer-motion";
 import { useRef, useEffect, useState, useCallback, useMemo, memo } from "react";
-import AboutImg from "@/assets/aboutimagee.webp";
+import AboutImg from "@/assets/aboutimage.png";
 import completeData from "../src/data/completeData.json";
 
 const Counter = memo(
@@ -100,19 +100,19 @@ const StatCard = memo(
     return (
       <motion.div
         whileHover={{ y: -4 }}
-      transition={{ type: "spring", stiffness: 300, damping: 20 }}
-      className="relative p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg transition-all duration-300 w-full transform-gpu"
-      style={{ background: "var(--card-bg)", border: "1px solid var(--graphite-color)" }}
-    >
-      <div className="relative">
-        <span className="text-2xl sm:text-3xl md:text-4xl font-black" style={{ color: "var(--primary-hex)" }}>
-          <Counter value={value} suffix={suffix} />
-        </span>
-        <div className="absolute -bottom-1 sm:-bottom-2 left-0 w-8 sm:w-12 h-0.5 rounded-full" style={{ background: "linear-gradient(90deg, var(--primary-hex), var(--primary-hover-hex))" }} />
-      </div>
-      <p className="text-[10px] sm:text-xs font-bold mt-3 leading-tight uppercase tracking-wide" style={{ color: "rgba(var(--light-silver-rgb), 0.47)" }}>
-        {label}
-      </p>
+        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        className="relative p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg transition-all duration-300 w-full transform-gpu"
+        style={{ background: "var(--card-bg)", border: "1px solid var(--graphite-color)" }}
+      >
+        <div className="relative">
+          <span className="text-2xl sm:text-3xl md:text-4xl font-black" style={{ color: "var(--primary-hex)" }}>
+            <Counter value={value} suffix={suffix} />
+          </span>
+          <div className="absolute -bottom-1 sm:-bottom-2 left-0 w-8 sm:w-12 h-0.5 rounded-full" style={{ background: "linear-gradient(90deg, var(--primary-hex), var(--primary-hover-hex))" }} />
+        </div>
+        <p className="text-[10px] sm:text-xs font-bold mt-3 leading-tight uppercase tracking-wide" style={{ color: "rgba(var(--light-silver-rgb), 0.47)" }}>
+          {label}
+        </p>
       </motion.div>
     );
   },
@@ -276,23 +276,23 @@ export default function AboutSection() {
               dangerouslySetInnerHTML={{ __html: description }}
             />
 
-              {coreValues && (
-                <motion.div
-                  variants={variants}
-                  custom={5.5}
-                  className="flex flex-wrap gap-2 pt-2"
-                >
-                  {coreValues.map((value: string) => (
-                    <span
-                      key={value}
-                      className="px-3 py-1.5 text-[11px] font-bold rounded-full uppercase tracking-wide"
-                      style={{ background: "rgba(var(--primary-rgb), 0.08)", color: "var(--primary-hex)", border: "1px solid rgba(var(--primary-rgb), 0.2)" }}
-                    >
-                      {value}
-                    </span>
-                  ))}
-                </motion.div>
-              )}
+            {coreValues && (
+              <motion.div
+                variants={variants}
+                custom={5.5}
+                className="flex flex-wrap gap-2 pt-2"
+              >
+                {coreValues.map((value: string) => (
+                  <span
+                    key={value}
+                    className="px-3 py-1.5 text-[11px] font-bold rounded-full uppercase tracking-wide"
+                    style={{ background: "rgba(var(--primary-rgb), 0.08)", color: "var(--primary-hex)", border: "1px solid rgba(var(--primary-rgb), 0.2)" }}
+                  >
+                    {value}
+                  </span>
+                ))}
+              </motion.div>
+            )}
 
             <motion.div variants={variants} custom={6} className="pt-2 w-full">
               <div className="flex flex-row sm:flex-col md:flex-row flex-wrap items-center  gap-3 sm:gap-4 md:gap-4 w-full">

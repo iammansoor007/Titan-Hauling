@@ -180,25 +180,25 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 overflow-visible ${scrolled
           ? "bg-dark/90 backdrop-blur-xl shadow-lg py-2 border-b border-primary/20"
           : "bg-transparent py-2"
           }`}
       >
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="flex items-center justify-between">
+        <div className="container mx-auto px-4 lg:px-8 overflow-visible">
+          <div className="flex items-center justify-between overflow-visible">
             <motion.a
               href="#"
-              className="flex logooo items-center space-x-3 group"
+              className="relative w-32 sm:w-40 lg:w-48 h-12 block group overflow-visible"
               onClick={handleLinkClick}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              <div className="h-16 w-32 sm:h-16 sm:w-40 lg:h-20 lg:w-48 rounded-2xl flex items-center justify-center overflow-hidden">
+              <div className="absolute left-0 top-1/2 -translate-y-[25%] h-20 w-32 sm:h-24 sm:w-40 lg:h-32 lg:w-46 flex items-center justify-center z-50">
                 <img
                   src={logo}
                   alt="Titan Hauling Logo"
-                  className="h-full w-full object-contain p-1"
+                  className="h-full w-full object-contain p-1 filter drop-shadow-[0_8px_16px_rgba(0,0,0,0.6)]"
                 />
               </div>
             </motion.a>
