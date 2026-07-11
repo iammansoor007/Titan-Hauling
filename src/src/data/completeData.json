@@ -99,6 +99,11 @@
       "description": "Heavy duty hauling, junk removal, and dump truck services for residential, commercial, and contractor clients across Northeast Ohio.",
       "buttonText": "Call Now",
       "buttonLink": "tel:+12163131941"
+    },
+    "ctaButton": {
+      "label": "Get Free Quote",
+      "href": "#contact",
+      "icon": "Calendar"
     }
   },
   "hero": {

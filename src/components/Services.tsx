@@ -6,28 +6,28 @@ import {
   Layout, Building, CheckCircle, Phone, Zap,
 } from "lucide-react";
 import completeData from "../src/data/completeData.json";
-import imgGarageFloor from "@/assets/garagefloor.jfif";
-import imgPoolDeck from "@/assets/pooldeck.webp";
-import imgCommercialFloor from "@/assets/commercialfloor.jfif";
-import imgIndustrialFloor from "@/assets/industrialfloor.jfif";
-import imgDecorativeFlake from "@/assets/decorativefloor.jfif";
-import imgMetallicFloor from "@/assets/metallicfloor.jfif";
-import imgConcreteFloor from "@/assets/concretefloor.jfif";
-import imgEpoxyFlooring from "@/assets/epoxyflooring.webp";
-import imgPolyasparticCoating from "@/assets/polasparticcoating.jfif";
-import imgDrivewayCoating from "@/assets/drivewaycoating.jfif";
+import imgJunkRemoval from "@/assets/junkremovall.jfif";
+import imgConstructionDebris from "@/assets/constrcutiondebrisremoval.jfif";
+import imgDemolitionCleanup from "@/assets/demolitioncleanup.jfif";
+import imgDumpTruck from "@/assets/dumptruckservices.jfif";
+import imgDirtHauling from "@/assets/dirhauling.jfif";
+import imgLandscapeMaterial from "@/assets/landscapematerial.jfif";
+import imgPropertyCleanout from "@/assets/propertycleanout.webp";
+import imgContractorHauling from "@/assets/contracterhauling.jfif";
+import imgCommercialJunk from "@/assets/commericaljunkremoval.jfif";
+import imgResidentialJunk from "@/assets/residentaljunkremoval.webp";
 
 const serviceImageMap: Record<string, string> = {
-  "01": imgGarageFloor,
-  "02": imgPoolDeck,
-  "03": imgCommercialFloor,
-  "04": imgIndustrialFloor,
-  "05": imgDecorativeFlake,
-  "06": imgMetallicFloor,
-  "07": imgConcreteFloor,
-  "08": imgEpoxyFlooring,
-  "09": imgPolyasparticCoating,
-  "10": imgDrivewayCoating,
+  "01": imgJunkRemoval,
+  "02": imgConstructionDebris,
+  "03": imgDemolitionCleanup,
+  "04": imgDumpTruck,
+  "05": imgDirtHauling,
+  "06": imgLandscapeMaterial,
+  "07": imgPropertyCleanout,
+  "08": imgContractorHauling,
+  "09": imgCommercialJunk,
+  "10": imgResidentialJunk,
 };
 
 const iconMap: Record<string, React.ElementType> = {

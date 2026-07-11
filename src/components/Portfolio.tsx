@@ -58,9 +58,10 @@ const ProjectCard = forwardRef<HTMLDivElement, { project: any; index: number }>(
         <img
           src={resolvedImage}
           alt={project.title}
-          loading="lazy"
+          loading="eager"
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           onError={(e) => {
+            console.error(`[ProjectCard] Failed to load resolvedImage for "${project.title}":`, resolvedImage);
             e.currentTarget.src = "/placeholder.svg";
           }}
         />

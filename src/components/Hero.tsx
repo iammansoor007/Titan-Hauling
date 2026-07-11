@@ -176,7 +176,7 @@ const CoatingInquiryForm = () => {
               <div className="hidden sm:flex items-center gap-1 rounded-full px-3 py-1.5" style={{ background: "rgba(var(--primary-rgb), 0.08)", border: "1px solid rgba(var(--primary-rgb), 0.2)" }}>
                 <div className="flex -space-x-1">
                   {[1, 2, 3].map((i) => (
-                     <div
+                    <div
                       key={i}
                       className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold"
                       style={step >= i ? { background: "var(--primary-hex)", color: "var(--dark-bg)" } : { background: "var(--graphite-color)", color: "rgba(var(--light-silver-rgb), 0.4)" }}
@@ -536,7 +536,7 @@ const Hero = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const [hoveredButton, setHoveredButton] = useState<number | null>(null);
 
-  const { badge, headlines, description, buttons, stats } = completeData.hero;
+  const { headlines, description, buttons, stats } = completeData.hero;
 
   const firstLine = `${headlines[0] || ""} ${headlines[1] || ""}`;
   const thirdHeadlineParts = headlines[2]?.split("•") || [];
@@ -586,21 +586,10 @@ const Hero = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
             <div className="lg:col-span-7 flex flex-col items-center lg:items-start gap-4 text-center lg:text-left">
-              <motion.div
-                className="mt-2 inline-flex items-center gap-2 rounded-full px-4 py-2 mx-auto lg:mx-0"
-                style={{ background: "rgba(var(--primary-rgb), 0.08)", border: "1px solid rgba(var(--primary-rgb), 0.25)" }}
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
-              >
-                <div className="w-2 h-2 rounded-full animate-pulse" style={{ background: "var(--primary-hex)" }} />
-                <span className="text-xs uppercase tracking-[0.2em] font-bold" style={{ color: "var(--primary-hex)" }}>
-                  {badge}
-                </span>
-              </motion.div>
+
 
               <motion.h1
-                className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.75rem] font-black text-white leading-[1.08] tracking-tight uppercase"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.75rem] font-black text-white leading-[1.08] tracking-tight uppercase mt-8"
                 style={{ fontFamily: "var(--font-heading)", textShadow: "0 2px 40px rgba(230,126,34,0.12)" }}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -613,11 +602,7 @@ const Hero = () => {
                     {slogan}
                   </span>
                 )}
-                {location && (
-                  <span className="block text-xs sm:text-sm tracking-[0.25em] text-white/60 mt-4 font-body font-semibold uppercase">
-                    Serving {location} & Surrounding Areas
-                  </span>
-                )}
+
               </motion.h1>
 
               <motion.p
@@ -645,8 +630,8 @@ const Hero = () => {
                         key={idx}
                         href={button.href}
                         className={`group relative overflow-hidden px-8 py-4 rounded-xl sm:rounded-2xl w-full sm:w-auto inline-flex items-center justify-center gap-3 text-base font-bold transition-all duration-300 active:scale-95 border-2 ${isFirst
-                            ? "bg-gradient-to-r from-primary to-secondary text-dark border-transparent hover:opacity-90 shadow-lg shadow-primary/20"
-                            : "bg-transparent text-white border-primary/30 hover:bg-primary/10 hover:border-primary"
+                          ? "bg-gradient-to-r from-primary to-secondary text-dark border-transparent hover:opacity-90 shadow-lg shadow-primary/20"
+                          : "bg-transparent text-white border-primary/30 hover:bg-primary/10 hover:border-primary"
                           }`}
                         whileHover={{ y: -4 }}
                       >
