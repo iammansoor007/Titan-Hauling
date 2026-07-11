@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ===============================
+       PREMIUM DARK INDUSTRIAL BRAND THEME
+       Titan Orange + Charcoal + Jet Black
+    ================================= */
+
+    --background: 240 3% 6%; /* #0F0F10 */
+    --foreground: 0 0% 100%;
+    --popover: 0 0% 13%; /* #202020 */
+    --popover-foreground: 0 0% 92%;
+    --card: 0 0% 13%; /* #202020 */
+    --card-foreground: 0 0% 92%;
+    --primary: 28 80% 52%; /* #E67E22 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 28 82% 45%; /* #CF6D15 */
+    --secondary-foreground: 0 0% 100%;
+    --accent: 28 80% 52%; /* #E67E22 */
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 38%; /* #606060 */
+    --muted-foreground: 0 0% 84%; /* #D7D7D7 */
+    --border: 0 0% 20%; /* #333333 */
+    --input: 0 0% 20%;
+    --destructive: 6 78% 57%; /* #E74C3C */
+    --destructive-foreground: 0 0% 100%;
+    --ring: 28 80% 52%;
+    --radius: 10px;
+    --sidebar-background: 240 3% 6%;
+    --sidebar-foreground: 0 0% 92%;
+    --sidebar-primary: 28 80% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 28 82% 45%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 28 80% 52%;
+    --font-heading: 'Cinzel', serif;
+    --font-body: 'Montserrat', sans-serif;
+
+    /* Global theme variables for referencing in styles (prevents hardcoded colors) */
+    --primary-hex: #E67E22;
+    --primary-hover-hex: #CF6D15;
+    --dark-bg: #0F0F10;
+    --section-bg: #181818;
+    --charcoal-bg: #1B1B1B;
+    --card-bg: #202020;
+    --white-color: #FFFFFF;
+    --body-text-color: #EAEAEA;
+    --silver-color: #D7D7D7;
+    --light-silver-color: #B7B7B7;
+    --graphite-color: #333333;
+    --steel-gray-color: #606060;
+    --success-color: #2ECC71;
+    --danger-color: #E74C3C;
+
+    /* RGB values for opacity calculation */
+    --primary-rgb: 230, 126, 34;
+    --primary-hover-rgb: 207, 109, 21;
+    --dark-bg-rgb: 15, 15, 16;
+    --card-bg-rgb: 32, 32, 32;
+    --silver-rgb: 215, 215, 215;
+    --light-silver-rgb: 183, 183, 183;
+    --graphite-rgb: 51, 51, 51;
+  }
+}
+
+@layer base {
+  /* ─── Performance: GPU compositing layer for the entire page ─── */
+  html {
+    scroll-behavior: smooth;
+    /* Smooth native scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
+    /* Prevent layout shift caused by scrollbar appearance */
+    scrollbar-gutter: stable;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  * {
+    @apply border-border;
+    /* Use logical pixels — improves text rendering on HiDPI */
+    text-rendering: optimizeSpeed;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--dark-bg);
+    /* Prevent layout shift when scrollbar appears */
+    overflow-x: hidden;
+    /* Smooth momentum scrolling */
+    overscroll-behavior-y: none;
+  }
+
+  #root {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* Isolate root so fixed children work correctly */
+    isolation: isolate;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+    color: #FFFFFF;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .font-black,
+  .font-extrabold {
+    font-weight: 700 !important;
+  }
+
+  /* ─── Lazy sections: skip rendering offscreen content ─── */
+  section {
+    position: relative;
+    content-visibility: auto;
+    contain-intrinsic-size: 0 800px;
+  }
+
+  /* ─── Hero & navbar always visible (never deferred) ─── */
+  #hero-section,
+  nav {
+    content-visibility: visible;
+  }
+
+  /* ─── Images: prevent layout shift, smooth load ─── */
+  img {
+    display: block;
+    max-width: 100%;
+    /* Smoothly fade in lazy-loaded images */
+    transition: opacity 0.3s ease;
+  }
+  img[loading="lazy"] {
+    opacity: 0;
+  }
+  img[loading="lazy"].loaded,
+  img:not([loading]) {
+    opacity: 1;
+  }
+
+  /* ─── Focus visible — accessibility without layout flicker ─── */
+  :focus-visible {
+    outline: 2px solid var(--primary-hex);
+    outline-offset: 2px;
+  }
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-padding {
+    @apply px-6 md:px-12 lg:px-24 py-20 md:py-32;
+  }
+
+  .heading-xl {
+    @apply text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-medium;
+    font-family: var(--font-heading);
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+  }
+
+  .heading-lg {
+    @apply text-4xl md:text-5xl lg:text-6xl font-medium;
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .heading-md {
+    @apply text-2xl md:text-3xl lg:text-4xl font-medium;
+    font-family: var(--font-heading);
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+  }
+
+  .body-lg {
+    @apply text-lg md:text-xl;
+    font-family: var(--font-body);
+    line-height: 1.6;
+  }
+
+  .body-sm {
+    @apply text-sm md:text-base;
+    font-family: var(--font-body);
+    line-height: 1.5;
+  }
+
+  /* ORANGE BRAND LINE */
+  .accent-line {
+    @apply w-14 h-1 rounded-full;
+    background: hsl(var(--primary));
+  }
+
+  .grid-editorial {
+    @apply grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8;
+  }
+
+  /* ORANGE TEXT GRADIENT */
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* CTA BUTTON */
+  .bg-gradient-cta {
+    background: linear-gradient(135deg, var(--primary-hex), var(--primary-hover-hex));
+    color: var(--white-color);
+  }
+
+  /* PRIMARY BUTTON */
+  .drpaint-btn-primary {
+    background: var(--primary-hex);
+    color: var(--white-color);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    border-radius: var(--radius);
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(230, 126, 34, 0.15);
+    will-change: transform;
+  }
+  .drpaint-btn-primary:hover {
+    background: var(--primary-hover-hex);
+    transform: translateY(-3px);
+    box-shadow: 0 16px 35px rgba(230, 126, 34, 0.25);
+  }
+
+  /* SECONDARY BUTTON */
+  .drpaint-btn-secondary {
+    background: var(--charcoal-bg);
+    color: var(--white-color);
+    border: 1px solid var(--steel-gray-color);
+    transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+    border-radius: var(--radius);
+    font-weight: 600;
+    will-change: transform;
+  }
+  .drpaint-btn-secondary:hover {
+    background: var(--primary-hex);
+    border-color: var(--primary-hex);
+    color: var(--white-color);
+    transform: translateY(-2px);
+  }
+
+  /* CARD SYSTEM */
+  .drpaint-card {
+    background: var(--card-bg);
+    border: 1px solid var(--graphite-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: border-color 0.3s ease;
+  }
+  .drpaint-card:hover {
+    border-color: var(--primary-hex);
+  }
+
+  .drpaint-shadow {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  /* NAVBAR GLASS */
+  .navbar-glass {
+    background: rgba(15, 15, 16, 0.92); /* Jet Black with opacity */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--graphite-color);
+  }
+
+  /* HERO OVERLAY */
+  .hero-overlay {
+    background: linear-gradient(135deg, rgba(27, 27, 27, 0.88), rgba(15, 15, 16, 0.92));
+  }
+
+  /* PREMIUM SECTION BACKGROUND GRADIENT */
+  .bg-premium-gradient {
+    background: linear-gradient(135deg, var(--dark-bg) 0%, var(--section-bg) 50%, var(--charcoal-bg) 100%);
+  }
+
+  /* ELEGANT GRADIENT DIVIDER */
+  .premium-divider {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(230, 126, 34, 0.15) 20%,
+      rgba(230, 126, 34, 0.3) 50%,
+      rgba(230, 126, 34, 0.15) 80%,
+      transparent 100%
+    );
+    width: 100%;
+    /* No layout recalculation — height is fixed */
+    contain: strict;
+  }
+
+  /* ORANGE ACCENTS */
+  .gold-accent { color: hsl(var(--accent)); }
+  .brown-accent { color: hsl(var(--secondary)); }
+
+  /* GPU-COMPOSITED LAYER HINT */
+  .will-change-gpu {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
+  /* ─── Super-smooth motion: only animate compositable properties ─── */
+  .smooth-hover {
+    transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                opacity 0.2s ease;
+    will-change: transform;
+  }
+  .smooth-hover:hover {
+    transform: translateY(-4px);
+  }
+
+  /* ULTRA-SMOOTH FLOATING ANIMATION */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50%       { transform: translateY(-8px); }
+  }
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  /* SUBTLE ORANGE PULSE */
+  @keyframes orange-pulse {
+    0%, 100% { opacity: 0.6; }
+    50%       { opacity: 1; }
+  }
+  .animate-gold-pulse {
+    animation: orange-pulse 3s ease-in-out infinite;
+    will-change: opacity;
+  }
+
+  /* SHIMMER FOR LOADING STATES */
+  @keyframes shimmer {
+    0%   { background-position: -200% center; }
+    100% { background-position: 200% center; }
+  }
+  .animate-shimmer {
+    background: linear-gradient(90deg, var(--card-bg) 25%, var(--graphite-color) 50%, var(--card-bg) 75%);
+    background-size: 200% auto;
+    animation: shimmer 1.5s linear infinite;
+  }
+}

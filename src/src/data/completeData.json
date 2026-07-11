@@ -1,0 +1,1132 @@
+{
+  "navbar": {
+    "services": [
+      {
+        "title": "JUNK REMOVAL",
+        "description": "Residential and commercial junk removal — nothing we can't haul.",
+        "icon": "Home",
+        "items": [
+          "Residential Junk Removal",
+          "Commercial Junk Removal",
+          "Property Cleanouts",
+          "Estate Cleanouts"
+        ],
+        "features": [
+          "Free Estimates",
+          "Fast & Affordable",
+          "On Time, Every Time"
+        ]
+      },
+      {
+        "title": "HEAVY HAULING & DEBRIS",
+        "description": "Construction debris, demolition cleanup, and dump truck services for contractors.",
+        "icon": "ClipboardCheck",
+        "items": [
+          "Construction Debris Removal",
+          "Demolition Cleanup",
+          "Dump Truck Services",
+          "Contractor Hauling"
+        ],
+        "features": [
+          "No Job Too Big",
+          "Competitive Pricing",
+          "Reliable & Professional"
+        ]
+      },
+      {
+        "title": "MATERIALS & AGGREGATE",
+        "description": "Dirt, gravel, aggregate hauling, and landscape material delivery.",
+        "icon": "Sun",
+        "items": [
+          "Dirt Hauling",
+          "Gravel Hauling",
+          "Aggregate Hauling",
+          "Landscape Material Delivery"
+        ],
+        "features": [
+          "Heavy Duty Fleet",
+          "Residential & Commercial",
+          "Dependable Results"
+        ]
+      }
+    ],
+    "companyLinks": [
+      {
+        "label": "Home",
+        "href": "#",
+        "icon": "Home"
+      },
+      {
+        "label": "About",
+        "href": "#about",
+        "icon": "Users"
+      },
+      {
+        "label": "Services",
+        "href": "#services",
+        "icon": "Briefcase"
+      },
+      {
+        "label": "Gallery",
+        "href": "#portfolio",
+        "icon": "FileText"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact",
+        "icon": "MessageSquare"
+      }
+    ],
+    "stats": [
+      {
+        "value": "Northeast Ohio",
+        "label": "Service Area",
+        "icon": "MapPin"
+      },
+      {
+        "value": "Free",
+        "label": "Estimates",
+        "icon": "Star"
+      },
+      {
+        "value": "Heavy Duty",
+        "label": "Fleet",
+        "icon": "Shield"
+      }
+    ],
+    "cta": {
+      "title": "Get Your Free Estimate Today",
+      "description": "Heavy duty hauling, junk removal, and dump truck services for residential, commercial, and contractor clients across Northeast Ohio.",
+      "buttonText": "Call Now",
+      "buttonLink": "tel:+12163131941"
+    }
+  },
+  "hero": {
+    "badge": "Nothing We Can't Haul. Nothing We Can't Handle.",
+    "headlines": [
+      "Big Junk.",
+      "Bigger Trucks.",
+      "Nothing We Can't Haul • Northeast Ohio"
+    ],
+    "description": "Heavy duty hauling and junk removal company serving Northeast Ohio and surrounding areas. Free estimates. On time, every time.",
+    "buttons": [
+      {
+        "text": "Call Now",
+        "href": "tel:+12163131941",
+        "primary": true,
+        "icon": "FiArrowRight"
+      },
+      {
+        "text": "View Services",
+        "href": "#services",
+        "primary": false,
+        "icon": "FiArrowRight"
+      }
+    ],
+    "stats": [
+      {
+        "value": "Northeast Ohio",
+        "label": "Service Area",
+        "icon": "FiMapPin"
+      },
+      {
+        "value": "Free",
+        "label": "Estimates",
+        "icon": "FiMessageSquare"
+      },
+      {
+        "value": "Heavy Duty",
+        "label": "Fleet",
+        "icon": "FiShield"
+      },
+      {
+        "value": "216-313-1941",
+        "label": "Call Now",
+        "icon": "FiArrowRight"
+      }
+    ]
+  },
+  "about": {
+    "badge": "Get to Know Us",
+    "headline": {
+      "prefix": "Welcome to",
+      "highlight": "Titan Hauling & Junk LLC",
+      "suffix": ""
+    },
+    "description": "We're a heavy duty hauling and junk removal company built on strength, reliability, and no-nonsense service. Based in <span class=\"font-semibold text-primary\">Northeast Ohio</span>, we specialize in residential and commercial junk removal, construction debris hauling, demolition cleanup, dump truck services, and landscape material delivery. Nothing we can't haul. Nothing we can't handle.",
+    "image": {
+      "src": "TitanHaulingCrew",
+      "alt": "Titan Hauling & Junk professional crew and heavy duty fleet",
+      "badge": "Titan Strength. Titan Service."
+    },
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "Hidden Fees"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "Reliable Service"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates Always"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "CALL FOR FREE ESTIMATE",
+        "href": "tel:+12163131941",
+        "primary": true
+      },
+      {
+        "text": "OUR FULL STORY",
+        "href": "#about-story",
+        "primary": false
+      }
+    ],
+    "trustBadges": {
+      "founded": "",
+      "headquarters": "Northeast Ohio"
+    }
+  },
+  "aboutStory": {
+    "badge": "Our Story",
+    "headline": {
+      "prefix": "Built on",
+      "highlight": "Titan Strength",
+      "suffix": ""
+    },
+    "description": [
+      "Titan Hauling & Junk LLC was founded on a simple belief: when people need stuff hauled away, they shouldn't have to worry about whether the job is too big, too messy, or too complicated. Homeowners staring at garages full of junk. Contractors drowning in construction debris. Property managers facing full property cleanouts. Landscapers needing materials delivered fast. Everyone had the same problem — finding a hauler who would actually show up, work hard, and charge a fair price. That's where we come in.",
+      "We built Titan Hauling & Junk with a heavy duty fleet and a no-nonsense work ethic. Dump trucks ready for the biggest jobs. A team that treats every load like it's the most important one of the day. And a commitment to doing what we say we'll do — on time, every time. From dirt, gravel, and aggregate hauling for contractors to complete estate cleanouts for families, we bring Titan strength to every single job.",
+      "Today, Titan Hauling & Junk LLC proudly serves Northeast Ohio and surrounding areas — handling residential junk removal, commercial cleanouts, construction debris, demolition cleanup, and landscape material delivery with the same dependable, professional service that built our reputation. Call or text 216-313-1941 for your free estimate. Nothing we can't haul. Nothing we can't handle."
+    ],
+    "image": {
+      "src": "TitanHaulingFounder",
+      "alt": "Titan Hauling & Junk owner and heavy duty fleet",
+      "badge": "Owner & Operator"
+    },
+    "stats": [
+      {
+        "value": "Northeast Ohio",
+        "suffix": "",
+        "label": "Service Area"
+      },
+      {
+        "value": "Heavy Duty",
+        "suffix": "",
+        "label": "Fleet"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Our Services",
+    "headline": {
+      "prefix": "Heavy Duty Hauling",
+      "highlight": "& Junk Removal",
+      "suffix": ""
+    },
+    "description": [
+      "Titan Hauling & Junk LLC offers residential and commercial junk removal, construction debris hauling, demolition cleanup, dump truck services, and landscape material delivery across Northeast Ohio.",
+      "No job too big. No job too small. From single-item pickups to full property cleanouts and aggregate deliveries — we handle it all with Titan strength."
+    ],
+    "stats": [
+      {
+        "value": 3,
+        "suffix": "",
+        "label": "Core Markets"
+      },
+      {
+        "value": 7,
+        "suffix": "+",
+        "label": "Service Types"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates"
+      }
+    ],
+    "services": [
+      {
+        "number": "01",
+        "title": "Junk Removal",
+        "description": "Residential and commercial junk removal. Furniture, appliances, electronics, and general clutter — we haul it all.",
+        "icon": "Home",
+        "tag": "Popular",
+        "features": [
+          "Residential & Commercial",
+          "Fast & Affordable",
+          "Free Estimates"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Construction Debris Removal",
+        "description": "Removal of debris from construction and renovation projects. Drywall, lumber, concrete, roofing materials, and scrap.",
+        "icon": "Building2",
+        "tag": "Contractor",
+        "features": [
+          "Heavy Duty Fleet",
+          "On Time, Every Time",
+          "Competitive Pricing"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Demolition Cleanup",
+        "description": "Complete cleaning and hauling after demolition work. We clear the mess so you can move forward fast.",
+        "icon": "Hammer",
+        "tag": "Heavy Duty",
+        "features": [
+          "Large-Scale Hauling",
+          "Professional Crew",
+          "Dependable Results"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Dump Truck Services",
+        "description": "Professional dump truck services for contractors, construction companies, and industrial clients across Northeast Ohio.",
+        "icon": "Shield",
+        "tag": "Industrial",
+        "features": [
+          "Heavy Duty Fleet",
+          "Multiple Trucks Available",
+          "Contractor Friendly"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Dirt, Gravel & Aggregate Hauling",
+        "description": "Transportation and hauling of construction materials including dirt, gravel, sand, and aggregate for any size project.",
+        "icon": "Droplets",
+        "tag": "Materials",
+        "features": [
+          "Bulk Delivery",
+          "Residential & Commercial",
+          "Fast Turnaround"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "Landscape Material Delivery",
+        "description": "Delivery of mulch, topsoil, stone, and other landscape materials for residential and commercial projects.",
+        "icon": "Wrench",
+        "tag": "Landscaping",
+        "features": [
+          "Direct Delivery",
+          "Quality Materials",
+          "Flexible Scheduling"
+        ]
+      },
+      {
+        "number": "07",
+        "title": "Property Cleanouts",
+        "description": "Complete cleanout services for homes, businesses, rental properties, and estates. We do all the heavy lifting.",
+        "icon": "Tool",
+        "tag": "Cleanout",
+        "features": [
+          "Full Property Cleanouts",
+          "Estate & Rental Ready",
+          "Fast & Thorough"
+        ]
+      },
+      {
+        "number": "08",
+        "title": "Contractor Hauling Services",
+        "description": "Professional hauling solutions for contractors and construction companies. Consistent, reliable, and built for the trades.",
+        "icon": "Layers",
+        "tag": "Commercial",
+        "features": [
+          "General Contractors",
+          "Renovation Companies",
+          "Demolition Contractors"
+        ]
+      },
+      {
+        "number": "09",
+        "title": "Commercial Junk Removal",
+        "description": "Office cleanouts, retail fixture removal, warehouse clearing, and commercial property junk removal with minimal disruption.",
+        "icon": "Palette",
+        "tag": "Commercial",
+        "features": [
+          "Businesses & Offices",
+          "Warehouses",
+          "Property Management"
+        ]
+      },
+      {
+        "number": "10",
+        "title": "Residential Junk Removal",
+        "description": "Homeowner junk removal — old furniture, appliances, garage cleanouts, and yard debris. Fast, affordable, no hidden fees.",
+        "icon": "Grid",
+        "tag": "Residential",
+        "features": [
+          "Single Items to Full Loads",
+          "Same-Week Available",
+          "Free Estimates"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Not Sure If We Can Haul It?",
+      "description": "If it needs to go, we can haul it. Call or text for your free estimate today — no job too big or too small.",
+      "buttonText": "Call Now",
+      "buttonLink": "tel:+12163131941"
+    }
+  },
+  "whyChooseUs": {
+    "section": {
+      "badge": "WHY CHOOSE US",
+      "headline": "What Makes <span class=\"text-primary\">Titan Hauling & Junk</span> Different",
+      "description": "When you need heavy duty hauling and junk removal, you need a team with the strength, the fleet, and the work ethic to get it done right — the first time."
+    },
+    "features": [
+      {
+        "icon": "Award",
+        "title": "Reliable & Professional Service",
+        "description": "We show up when we say we will. On time, every time. Professional crew, clean work, and no surprises."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Free Estimates",
+        "description": "No-obligation quotes with transparent pricing. No hidden fees — just honest, competitive rates."
+      },
+      {
+        "icon": "Globe",
+        "title": "Residential & Commercial",
+        "description": "Homeowners, contractors, property managers, landscapers, and industrial clients — we serve them all."
+      },
+      {
+        "icon": "Clock",
+        "title": "Fast & Affordable",
+        "description": "Quick response times, efficient crews, and pricing that makes sense for every budget."
+      },
+      {
+        "icon": "Shield",
+        "title": "Heavy Duty Fleet",
+        "description": "Dump trucks and equipment built for the biggest, toughest jobs. Nothing we can't handle."
+      },
+      {
+        "icon": "Check",
+        "title": "No Job Too Big or Too Small",
+        "description": "Single-item pickup to full demolition cleanup — we bring the same Titan strength to every job."
+      }
+    ],
+    "stats": [
+      {
+        "value": "Northeast Ohio",
+        "suffix": "",
+        "label": "Service Area"
+      },
+      {
+        "value": "Heavy Duty",
+        "suffix": "",
+        "label": "Fleet"
+      },
+      {
+        "value": "Free",
+        "suffix": "",
+        "label": "Estimates"
+      },
+      {
+        "value": "216-313-1941",
+        "suffix": "",
+        "label": "Call Now"
+      }
+    ],
+    "cta": {
+      "badge": "GET STARTED",
+      "title": "Ready to Haul <span class=\"\">It Away?</span>",
+      "description": "Call or text (216) 313-1941 for your free estimate today. Titan strength. Titan service. Titan results.",
+      "trustBadges": [
+        "Reliable & Professional",
+        "Free Estimates",
+        "No Job Too Big"
+      ],
+      "buttons": [
+        {
+          "text": "Call Now",
+          "href": "tel:+12163131941",
+          "primary": true
+        },
+        {
+          "text": "View Services",
+          "href": "#services",
+          "primary": false
+        }
+      ]
+    }
+  },
+  "portfolio": {
+    "section": {
+      "badge": "Our Work",
+      "headline": "Featured <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/70\">Projects</span>"
+    },
+    "projects": [
+      {
+        "number": "01",
+        "title": "Cleveland Construction Debris Haul",
+        "category": "Construction",
+        "image": "portfolio1",
+        "location": "Cleveland, OH",
+        "year": "2025",
+        "accent": "from-primary to-primary/80",
+        "scope": "Construction Debris Removal",
+        "desc": "Full site cleanup after major renovation. Multiple truckloads of drywall, lumber, and scrap removed."
+      },
+      {
+        "number": "02",
+        "title": "Akron Demolition Cleanup",
+        "category": "Demolition",
+        "image": "portfolio2",
+        "location": "Akron, OH",
+        "year": "2025",
+        "accent": "from-primary to-primary/70",
+        "scope": "Demolition Hauling",
+        "desc": "Complete debris removal after commercial demolition. Heavy duty fleet handled it all."
+      },
+      {
+        "number": "03",
+        "title": "Contractor Aggregate Delivery",
+        "category": "Materials",
+        "image": "portfolio3",
+        "location": "Northeast Ohio",
+        "year": "2024",
+        "accent": "from-primary/90 to-primary/60",
+        "scope": "Gravel & Dirt Hauling",
+        "desc": "Multiple loads of gravel and aggregate delivered on schedule for large construction project."
+      },
+      {
+        "number": "04",
+        "title": "Estate Property Cleanout",
+        "category": "Residential",
+        "image": "portfolio4",
+        "location": "Canton, OH",
+        "year": "2025",
+        "accent": "from-primary to-primary/80",
+        "scope": "Full Estate Cleanout",
+        "desc": "Complete house cleanout including furniture, appliances, and years of accumulated belongings."
+      },
+      {
+        "number": "05",
+        "title": "Landscape Material Delivery",
+        "category": "Landscaping",
+        "image": "portfolio5",
+        "location": "Northeast Ohio",
+        "year": "2024",
+        "accent": "from-primary/80 to-primary/60",
+        "scope": "Mulch & Topsoil Delivery",
+        "desc": "Bulk landscape material delivery for residential landscaping project — on time and on budget."
+      }
+    ],
+    "button": {
+      "text": "View All Projects",
+      "link": "#portfolio"
+    }
+  },
+  "testimonials": {
+    "section": {
+      "badge": "Client Testimonials",
+      "headline": "What Our Customers Say",
+      "description": "Hear from homeowners, contractors, and businesses who trust Titan Hauling & Junk for heavy duty hauling and junk removal across Northeast Ohio.",
+      "featured": "Trusted Hauling & Junk Removal in Northeast Ohio"
+    },
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Dave R.",
+        "position": "General Contractor",
+        "company": "Cleveland",
+        "avatar": "DR",
+        "text": "Titan Hauling is my go-to for construction debris removal. They show up on time, work fast, and their pricing is fair. Nothing they can't handle."
+      },
+      {
+        "id": 2,
+        "name": "Lisa M.",
+        "position": "Property Manager",
+        "company": "Akron",
+        "avatar": "LM",
+        "text": "We manage multiple rental properties and Titan handles all our cleanouts. Professional, dependable, and always on time. Highly recommend."
+      },
+      {
+        "id": 3,
+        "name": "Tony S.",
+        "position": "Demolition Contractor",
+        "company": "Northeast Ohio",
+        "avatar": "TS",
+        "text": "These guys are the real deal. Heavy duty fleet, hard working crew, and they never complain about the size of the job. My kind of company."
+      },
+      {
+        "id": 4,
+        "name": "Karen W.",
+        "position": "Homeowner",
+        "company": "Canton",
+        "avatar": "KW",
+        "text": "Called Titan for a garage cleanout and they had it done in hours. Fair price, friendly crew, and they took everything. Can't ask for more."
+      },
+      {
+        "id": 5,
+        "name": "Humble Tyler",
+        "position": "Owner & Operator",
+        "company": "Titan Hauling & Junk LLC",
+        "avatar": "TH",
+        "text": "We built Titan Hauling & Junk to give Northeast Ohio a hauler they can count on. No job too big, no job too small. Titan strength. Titan service. Titan results."
+      }
+    ],
+    "videos": [
+      {
+        "id": "v1",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Construction Debris Haul-Off",
+        "name": "Dave R."
+      },
+      {
+        "id": "v2",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Property Cleanout Service",
+        "name": "Lisa M."
+      },
+      {
+        "id": "v3",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Demolition Cleanup Project",
+        "name": "Tony S."
+      },
+      {
+        "id": "v4",
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Dump Truck Services Overview",
+        "name": "Titan Hauling Team"
+      }
+    ],
+    "stats": {
+      "reviewPlatform": "Google Reviews",
+      "satisfactionFocus": "100% Reliable Service",
+      "totalVideos": 12
+    }
+  },
+  "faq": {
+    "section": {
+      "badge": "Knowledge Base",
+      "headline": "Frequently Asked Questions",
+      "description": "Straight answers about our junk removal, heavy hauling, and dump truck services."
+    },
+    "categories": [
+      {
+        "id": "all",
+        "label": "All Questions",
+        "icon": null
+      },
+      {
+        "id": "junk",
+        "label": "Junk Removal",
+        "icon": "Home"
+      },
+      {
+        "id": "hauling",
+        "label": "Heavy Hauling",
+        "icon": "Shield"
+      },
+      {
+        "id": "materials",
+        "label": "Materials",
+        "icon": "Hammer"
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "category": "junk",
+        "question": "What can you haul away?",
+        "answer": "Everything. Furniture, appliances, construction debris, demolition waste, yard debris, estate cleanouts, and commercial junk. Nothing we can't haul.",
+        "metadata": [
+          {
+            "label": "Residential",
+            "value": "Yes — everything"
+          },
+          {
+            "label": "Commercial",
+            "value": "Yes — all industries"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "junk",
+        "question": "Do you offer free estimates?",
+        "answer": "Yes. Free, no-obligation estimates on every job. Call or text 216-313-1941 for your quote — no hidden fees, ever.",
+        "metadata": [
+          {
+            "label": "Cost",
+            "value": "Free"
+          },
+          {
+            "label": "Obligation",
+            "value": "None"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "hauling",
+        "question": "What areas do you serve?",
+        "answer": "Northeast Ohio and surrounding areas. Cleveland, Akron, Canton, and throughout the region.",
+        "metadata": [
+          {
+            "label": "Primary",
+            "value": "Northeast Ohio"
+          },
+          {
+            "label": "Surrounding Areas",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "hauling",
+        "question": "Do you work with contractors?",
+        "answer": "Absolutely. We're contractor-friendly — construction debris removal, demolition cleanup, dump truck services, and aggregate hauling built for the trades.",
+        "metadata": [
+          {
+            "label": "Contractors",
+            "value": "General, demo, renovation"
+          },
+          {
+            "label": "Service",
+            "value": "On time, every time"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "category": "junk",
+        "question": "Do you do property cleanouts?",
+        "answer": "Yes. Full property cleanouts for homes, businesses, rental properties, estates, and foreclosures. We handle all the heavy lifting.",
+        "metadata": [
+          {
+            "label": "Rentals & Estates",
+            "value": "Yes"
+          },
+          {
+            "label": "Businesses",
+            "value": "Yes"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "category": "materials",
+        "question": "Do you deliver landscape materials?",
+        "answer": "Yes. We deliver mulch, topsoil, stone, gravel, sand, and aggregate for residential and commercial landscaping projects.",
+        "metadata": [
+          {
+            "label": "Materials",
+            "value": "Mulch, soil, stone, gravel"
+          },
+          {
+            "label": "Delivery",
+            "value": "Direct to site"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "category": "hauling",
+        "question": "How big is your fleet?",
+        "answer": "We run a heavy duty fleet with multiple dump trucks ready for jobs of any size. No job too big — we bring Titan strength every time.",
+        "metadata": [
+          {
+            "label": "Fleet Type",
+            "value": "Heavy duty dump trucks"
+          },
+          {
+            "label": "Capacity",
+            "value": "Multiple trucks available"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "category": "junk",
+        "question": "Do you take single items?",
+        "answer": "Yes. No job too small. Single furniture pieces, one appliance, a few boxes — we haul it all. Same professional service regardless of job size.",
+        "metadata": [
+          {
+            "label": "Single Items",
+            "value": "Yes"
+          },
+          {
+            "label": "Full Loads",
+            "value": "Also yes"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "category": "hauling",
+        "question": "How fast can you respond?",
+        "answer": "We pride ourselves on fast response. Call or text for your free estimate and we'll get you scheduled quickly — often same-week.",
+        "metadata": [
+          {
+            "label": "Response",
+            "value": "Fast — call or text"
+          },
+          {
+            "label": "Scheduling",
+            "value": "Same-week available"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "category": "materials",
+        "question": "Do you haul dirt and gravel?",
+        "answer": "Yes. Dirt, gravel, aggregate, sand — we haul and deliver bulk materials for contractors, landscapers, and residential projects.",
+        "metadata": [
+          {
+            "label": "Dirt",
+            "value": "Yes"
+          },
+          {
+            "label": "Gravel & Aggregate",
+            "value": "Yes"
+          }
+        ]
+      }
+    ],
+    "knowledgeCard": {
+      "title": "Still Have Questions?",
+      "description": "Call or text us — we'll give you a straight answer and a free estimate. Nothing we can't haul. Nothing we can't handle.",
+      "buttons": [
+        {
+          "text": "Call Now",
+          "href": "tel:+12163131941",
+          "primary": true
+        },
+        {
+          "text": "View Services",
+          "href": "#services",
+          "primary": false
+        }
+      ]
+    }
+  },
+  "quote": {
+    "section": {
+      "badge": "GET STARTED",
+      "headline": "Request Your <span class=\"font-black text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-primary/80\">Free Estimate Today</span>",
+      "description": "Heavy duty hauling, junk removal, and dump truck services. Free estimates — no hidden fees, no job too big."
+    },
+    "services": [
+      {
+        "id": 1,
+        "title": "Junk Removal",
+        "desc": "Residential & commercial",
+        "icon": "⌗"
+      },
+      {
+        "id": 2,
+        "title": "Construction Debris",
+        "desc": "Renovation & demo cleanup",
+        "icon": "⎔"
+      },
+      {
+        "id": 3,
+        "title": "Dump Truck Services",
+        "desc": "Heavy duty hauling",
+        "icon": "⌖"
+      },
+      {
+        "id": 4,
+        "title": "Dirt & Gravel Hauling",
+        "desc": "Bulk material delivery",
+        "icon": "⌘"
+      },
+      {
+        "id": 5,
+        "title": "Property Cleanouts",
+        "desc": "Estates, rentals, businesses",
+        "icon": "⚡"
+      },
+      {
+        "id": 6,
+        "title": "Landscape Materials",
+        "desc": "Mulch, soil, stone delivery",
+        "icon": "◈"
+      }
+    ],
+    "projectTypes": [
+      {
+        "value": "residential",
+        "label": "Residential"
+      },
+      {
+        "value": "commercial",
+        "label": "Commercial"
+      },
+      {
+        "value": "contractor",
+        "label": "Contractor"
+      },
+      {
+        "value": "industrial",
+        "label": "Industrial"
+      }
+    ],
+    "timelines": [
+      {
+        "value": "urgent",
+        "label": "Urgent (ASAP)"
+      },
+      {
+        "value": "standard",
+        "label": "Standard (1-2 weeks)"
+      },
+      {
+        "value": "planned",
+        "label": "Planned (1-4 weeks)"
+      },
+      {
+        "value": "future",
+        "label": "Future Project"
+      }
+    ],
+    "email": "info@titanhaulingjunk.com",
+    "success": {
+      "title": "Estimate Request Received",
+      "message": "Your project details have been sent to the team at Titan Hauling & Junk LLC.",
+      "response": "We'll respond promptly with your free estimate. Titan strength. Titan service. Titan results.",
+      "buttonText": "Close"
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "Titan Hauling & Junk LLC",
+      "tagline": "NOTHING WE CAN'T HAUL. NOTHING WE CAN'T HANDLE.",
+      "description": "Heavy duty hauling and junk removal serving Northeast Ohio and surrounding areas. Construction debris, demolition cleanup, dump truck services, junk removal, and landscape material delivery. Free estimates. On time, every time."
+    },
+    "services": {
+      "title": "Our Services",
+      "main": [
+        {
+          "label": "Junk Removal",
+          "href": "/junk-removal",
+          "icon": "Home"
+        },
+        {
+          "label": "Construction Debris Removal",
+          "href": "/construction-debris",
+          "icon": "Building2"
+        },
+        {
+          "label": "Demolition Cleanup",
+          "href": "/demolition-cleanup",
+          "icon": "Hammer"
+        },
+        {
+          "label": "Dump Truck Services",
+          "href": "/dump-truck",
+          "icon": "Shield"
+        },
+        {
+          "label": "Dirt & Gravel Hauling",
+          "href": "/dirt-gravel",
+          "icon": "Droplets"
+        },
+        {
+          "label": "Landscape Material Delivery",
+          "href": "/landscape-materials",
+          "icon": "Wrench"
+        },
+        {
+          "label": "Property Cleanouts",
+          "href": "/property-cleanouts",
+          "icon": "Tool"
+        },
+        {
+          "label": "Contractor Hauling",
+          "href": "/contractor-hauling",
+          "icon": "Layers"
+        },
+        {
+          "label": "Commercial Junk Removal",
+          "href": "/commercial-junk",
+          "icon": "Palette"
+        },
+        {
+          "label": "Residential Junk Removal",
+          "href": "/residential-junk",
+          "icon": "Grid"
+        }
+      ],
+      "materials": {
+        "title": "Follow Us",
+        "items": [
+          {
+            "label": "Facebook",
+            "href": "#"
+          },
+          {
+            "label": "Instagram",
+            "href": "#"
+          },
+          {
+            "label": "TikTok",
+            "href": "#"
+          }
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "info@titanhaulingjunk.com",
+      "phone": "+1 (216) 313-1941",
+      "address": "Northeast Ohio",
+      "emergency": "Call or Text Anytime",
+      "areas": "Serving Northeast Ohio & Surrounding Areas"
+    },
+    "certifications": [
+      {
+        "cert": "Heavy Duty",
+        "number": "Fleet",
+        "icon": "Award"
+      },
+      {
+        "cert": "Free",
+        "number": "Estimates",
+        "icon": "MessageSquare"
+      },
+      {
+        "cert": "Reliable",
+        "number": "Service",
+        "icon": "Check"
+      },
+      {
+        "cert": "On Time",
+        "number": "Every Time",
+        "icon": "Clock"
+      },
+      {
+        "cert": "Residential",
+        "number": "& Commercial",
+        "icon": "Building2"
+      },
+      {
+        "cert": "No Job",
+        "number": "Too Big",
+        "icon": "Shield"
+      }
+    ],
+    "quickLinks": [
+      {
+        "label": "Free Estimate",
+        "href": "#contact",
+        "icon": "Phone"
+      },
+      {
+        "label": "About Us",
+        "href": "#about",
+        "icon": "Users"
+      },
+      {
+        "label": "Services",
+        "href": "#services",
+        "icon": "Briefcase"
+      }
+    ],
+    "social": [
+      {
+        "platform": "Email",
+        "icon": "Mail",
+        "href": "mailto:info@titanhaulingjunk.com"
+      },
+      {
+        "platform": "Phone",
+        "icon": "Phone",
+        "href": "tel:+12163131941"
+      },
+      {
+        "platform": "Facebook",
+        "icon": "Facebook",
+        "href": "#"
+      },
+      {
+        "platform": "Instagram",
+        "icon": "Instagram",
+        "href": "#"
+      },
+      {
+        "platform": "TikTok",
+        "icon": "Music",
+        "href": "#"
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2026 Titan Hauling & Junk LLC",
+      "rights": "All rights reserved",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "/terms"
+        },
+        {
+          "label": "Free Estimates",
+          "href": "#contact"
+        }
+      ],
+      "tagline": "TITAN STRENGTH. TITAN SERVICE. TITAN RESULTS."
+    },
+    "marquee": {
+      "texts": [
+        "NOTHING WE CAN'T HAUL. NOTHING WE CAN'T HANDLE.",
+        "HEAVY DUTY FLEET • FREE ESTIMATES • ON TIME EVERY TIME",
+        "TITAN STRENGTH • TITAN SERVICE • TITAN RESULTS"
+      ]
+    }
+  },
+  "leadership": {
+    "section": {
+      "badge": "OUR LEADERSHIP",
+      "headline": "Committed to <span class=\"text-primary\">Titan Results</span>",
+      "description": "At Titan Hauling & Junk LLC, our leadership is driven by a singular mission: to deliver heavy duty hauling and junk removal services with strength, reliability, and no-nonsense professionalism across Northeast Ohio."
+    },
+    "ceo": {
+      "name": "Humble TY",
+      "title": "OWNER & OPERATOR",
+      "quotes": [
+        "We built Titan Hauling & Junk because we saw contractors, homeowners, and businesses struggling to find a hauler who would actually show up, work hard, and charge a fair price. Nothing we can't haul. Nothing we can't handle."
+      ],
+      "description": [
+        "Titan Hauling & Junk LLC was founded with a heavy duty fleet and a no-nonsense work ethic. Reliable service, competitive pricing, and on time every time — that's how we operate every single day.",
+        "Today, Titan Hauling & Junk proudly serves Northeast Ohio and surrounding areas with a comprehensive range of hauling services: residential and commercial junk removal, construction debris removal, demolition cleanup, dump truck services, dirt and gravel hauling, landscape material delivery, and complete property cleanouts. Call or text 216-313-1941 for your free estimate."
+      ],
+      "social": {
+        "facebook": "#",
+        "instagram": "#",
+        "tiktok": "#",
+        "email": "info@titanhaulingjunk.com"
+      },
+      "badges": {
+        "top": "Heavy Duty Hauling",
+        "bottom": "Northeast Ohio Proud"
+      },
+      "alt": "Titan Hauling & Junk LLC - Owner & Heavy Duty Fleet"
+    }
+  }
+}
