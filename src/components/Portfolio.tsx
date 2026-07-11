@@ -48,8 +48,8 @@ const ProjectCard = forwardRef<HTMLDivElement, { project: any; index: number }>(
       className="group relative flex flex-col overflow-hidden rounded-3xl bg-card border border-border transition-all duration-500 transform-gpu hover:-translate-y-2"
       style={{
         background: "linear-gradient(135deg, var(--card-bg) 0%, var(--dark-bg) 100%)",
-        boxShadow: isHovered ? "0 20px 40px rgba(230, 126, 34, 0.12)" : "none",
-        borderColor: isHovered ? "rgba(230, 126, 34, 0.35)" : "var(--graphite-color)"
+        boxShadow: isHovered ? "0 20px 40px rgba(var(--primary-rgb), 0.12)" : "none",
+        borderColor: isHovered ? "rgba(var(--primary-rgb), 0.35)" : "var(--graphite-color)"
       }}
     >
       {/* Image Area */}

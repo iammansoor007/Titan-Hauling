@@ -74,6 +74,9 @@
     --silver-rgb: 215, 215, 215;
     --light-silver-rgb: 183, 183, 183;
     --graphite-rgb: 51, 51, 51;
+    --black-rgb: 0, 0, 0;
+    --white-rgb: 255, 255, 255;
+    --charcoal-bg-rgb: 27, 27, 27;
   }
 }
 
@@ -126,7 +129,7 @@
     font-family: var(--font-heading);
     letter-spacing: -0.01em;
     line-height: 1.05;
-    color: #FFFFFF;
+    color: var(--white-color);
   }
 
   h1,
@@ -254,14 +257,14 @@
     transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
     border-radius: var(--radius);
     font-weight: 600;
-    box-shadow: 0 10px 25px rgba(230, 126, 34, 0.15);
+    box-shadow: 0 10px 25px rgba(var(--primary-rgb), 0.15);
     will-change: transform;
   }
 
   .drpaint-btn-primary:hover {
     background: var(--primary-hover-hex);
     transform: translateY(-3px);
-    box-shadow: 0 16px 35px rgba(230, 126, 34, 0.25);
+    box-shadow: 0 16px 35px rgba(var(--primary-rgb), 0.25);
   }
 
   /* SECONDARY BUTTON */
@@ -286,7 +289,7 @@
   .drpaint-card {
     background: var(--card-bg);
     border: 1px solid var(--graphite-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 30px rgba(var(--black-rgb), 0.5);
     border-radius: 1rem;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -298,12 +301,12 @@
   }
 
   .drpaint-shadow {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 25px rgba(var(--black-rgb), 0.3);
   }
 
   /* NAVBAR GLASS */
   .navbar-glass {
-    background: rgba(15, 15, 16, 0.92);
+    background: rgba(var(--dark-bg-rgb), 0.92);
     /* Jet Black with opacity */
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -312,7 +315,7 @@
 
   /* HERO OVERLAY */
   .hero-overlay {
-    background: linear-gradient(135deg, rgba(27, 27, 27, 0.88), rgba(15, 15, 16, 0.92));
+    background: linear-gradient(135deg, rgba(var(--charcoal-bg-rgb), 0.88), rgba(var(--dark-bg-rgb), 0.92));
   }
 
   /* PREMIUM SECTION BACKGROUND GRADIENT */
@@ -325,9 +328,9 @@
     height: 1px;
     background: linear-gradient(90deg,
         transparent 0%,
-        rgba(230, 126, 34, 0.15) 20%,
-        rgba(230, 126, 34, 0.3) 50%,
-        rgba(230, 126, 34, 0.15) 80%,
+        rgba(var(--primary-rgb), 0.15) 20%,
+        rgba(var(--primary-rgb), 0.3) 50%,
+        rgba(var(--primary-rgb), 0.15) 80%,
         transparent 100%);
     width: 100%;
     /* No layout recalculation — height is fixed */

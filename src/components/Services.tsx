@@ -82,7 +82,7 @@ const ServiceCard = memo(({
       onHoverStart={() => setHovered(true)}
       onHoverEnd={() => setHovered(false)}
       className={`group relative rounded-2xl overflow-hidden flex flex-col cursor-pointer transform-gpu will-change-transform transition-all duration-500 hover:-translate-y-2 ${orphan ? "md:col-start-2" : ""}`}
-      style={{ background: "var(--card-bg)", border: "1px solid var(--graphite-color)", boxShadow: "0 4px 24px rgba(0,0,0,0.4)" }}
+      style={{ background: "var(--card-bg)", border: "1px solid var(--graphite-color)", boxShadow: "0 4px 24px rgba(var(--black-rgb), 0.4)" }}
       onMouseEnter={(e) => (e.currentTarget as HTMLElement).style.borderColor = "rgba(var(--primary-rgb), 0.25)"}
       onMouseLeave={(e) => (e.currentTarget as HTMLElement).style.borderColor = "var(--graphite-color)"}
     >
@@ -179,7 +179,7 @@ const Services = () => {
                 </span>
               </div>
 
-              <h2 className="text-4xl md:text-5xl xl:text-[3.25rem] font-black leading-[1.1] tracking-tight" style={{ color: "#fff", fontFamily: "var(--font-heading)" }}>
+              <h2 className="text-4xl md:text-5xl xl:text-[3.25rem] font-black leading-[1.1] tracking-tight" style={{ color: "var(--white-color)", fontFamily: "var(--font-heading)" }}>
                 {headline.prefix}{" "}
                 <span style={{ color: "var(--primary-hex)" }}>{headline.highlight}</span>{" "}
                 <span style={{ color: "var(--light-silver-color)" }}>{headline.suffix}</span>
@@ -242,15 +242,15 @@ const Services = () => {
           className="relative overflow-hidden rounded-3xl"
           style={{
             background: "linear-gradient(135deg, var(--dark-bg) 0%, var(--card-bg) 50%, var(--graphite-color) 100%)",
-            boxShadow: "0 25px 60px rgba(0,0,0,0.5)",
-            border: "1px solid rgba(230, 126, 34, 0.2)"
+            boxShadow: "0 25px 60px rgba(var(--black-rgb), 0.5)",
+            border: "1px solid rgba(var(--primary-rgb), 0.2)"
           }}
         >
           {/* Technical Grid Pattern */}
           <div
             className="absolute inset-0 opacity-[0.08]"
             style={{
-              backgroundImage: `linear-gradient(rgba(255,255,255,0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.15) 1px, transparent 1px)`,
+              backgroundImage: `linear-gradient(rgba(var(--white-rgb), 0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--white-rgb), 0.15) 1px, transparent 1px)`,
               backgroundSize: '45px 45px'
             }}
           />
@@ -268,7 +268,7 @@ const Services = () => {
                   </span>
                 </div>
 
-                <h3 className="text-3xl md:text-4xl xl:text-5xl font-black leading-[1.05] tracking-tight mb-5" style={{ color: "#fff", fontFamily: "var(--font-heading)" }}>
+                <h3 className="text-3xl md:text-4xl xl:text-5xl font-black leading-[1.05] tracking-tight mb-5" style={{ color: "var(--white-color)", fontFamily: "var(--font-heading)" }}>
                   {cta.title}
                 </h3>
 
@@ -298,7 +298,7 @@ const Services = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center justify-center gap-2 px-8 py-3.5 rounded-full font-bold transition-all duration-300"
-                  style={{ background: "linear-gradient(135deg, var(--primary-hex), var(--primary-hover-hex))", color: "var(--dark-bg)", boxShadow: "0 12px 40px rgba(230,126,34,0.35)" }}
+                  style={{ background: "linear-gradient(135deg, var(--primary-hex), var(--primary-hover-hex))", color: "var(--dark-bg)", boxShadow: "0 12px 40px rgba(var(--primary-rgb), 0.35)" }}
                 >
                   {cta.buttonText}
                   <ArrowRight className="w-5 h-5" />
@@ -310,7 +310,7 @@ const Services = () => {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center justify-center gap-2 px-8 py-3.5 rounded-full font-bold transition-all duration-300"
-                  style={{ background: "transparent", color: "var(--silver-color)", border: "2px solid rgba(230,126,34,0.35)" }}
+                  style={{ background: "transparent", color: "var(--silver-color)", border: "2px solid rgba(var(--primary-rgb), 0.35)" }}
                 >
                   <Phone className="w-5 h-5" />
                   Call Now
