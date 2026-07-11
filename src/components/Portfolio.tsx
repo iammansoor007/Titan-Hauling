@@ -12,11 +12,11 @@ import {
 } from "lucide-react";
 import completeData from "../src/data/completeData.json";
 
-import imgPortfolio1 from "@/assets/portfolio-1.webp";
-import imgPortfolio2 from "@/assets/portfolio-2.jpg";
-import imgPortfolio3 from "@/assets/portfolio-3.webp";
-import imgPortfolio4 from "@/assets/portfolio-4.webp";
-import imgPortfolio5 from "@/assets/portfolio-5.jpg";
+import imgPortfolio1 from "@/assets/portfolio-1-c.webp";
+import imgPortfolio2 from "@/assets/portfolio-2.webp";
+import imgPortfolio3 from "@/assets/portfolio-3-c.webp";
+import imgPortfolio4 from "@/assets/portfolio-4-c.webp";
+import imgPortfolio5 from "@/assets/portfolio-5.webp";
 
 const projectImages: Record<string, string> = {
   portfolio1: imgPortfolio1,
@@ -59,9 +59,9 @@ const ProjectCard = forwardRef<HTMLDivElement, { project: any; index: number }>(
           src={resolvedImage}
           alt={project.title}
           loading="eager"
+          decoding="async"
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           onError={(e) => {
-            console.error(`[ProjectCard] Failed to load resolvedImage for "${project.title}":`, resolvedImage);
             e.currentTarget.src = "/placeholder.svg";
           }}
         />

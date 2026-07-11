@@ -1,6 +1,6 @@
 import { motion, useInView, useReducedMotion } from "framer-motion";
 import { useRef, useEffect, useState, useCallback, useMemo, memo } from "react";
-import AboutImg from "@/assets/aboutimage.png";
+import AboutImg from "@/assets/aboutimage.webp";
 import completeData from "../src/data/completeData.json";
 
 const Counter = memo(
