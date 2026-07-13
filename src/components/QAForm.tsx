@@ -764,7 +764,7 @@ Locally Owned & Operated
     try {
       try {
         const response = await fetch(
-          "https://formsubmit.co/ajax/info@titanhaulingjunk.com",
+          "https://formsubmit.co/ajax/info@titanhauling.vercel.app",
           {
             method: "POST",
             headers: {
